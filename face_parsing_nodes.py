@@ -12,7 +12,7 @@ models_path = folder_paths.models_dir
 face_parsing_path = os.path.join(models_path, "face_parsing")
 
 
-class FaceParsingModelLoaderNew:
+class  :
     """Loads the face parsing semantic segmentation model (jonathandinu/face-parsing)."""
 
     def __init__(self):
@@ -216,7 +216,7 @@ class FaceParsingResultsParser:
 # Node registration
 NODE_CLASS_MAPPINGS = {
     'FaceParsingProcessorLoader(FaceParsing)': FaceParsingProcessorLoader,
-    'FaceParsingModelLoaderNew(FaceParsing)': FaceParsingModelLoaderNew,
+    'FaceParsingModelLoaderNew': FaceParsingModelLoaderNew,
     'FaceParse(FaceParsing)': FaceParse,
     'FaceParsingResultsParser(FaceParsing)': FaceParsingResultsParser,
 }

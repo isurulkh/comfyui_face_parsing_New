@@ -116,7 +116,7 @@ Converts raw face parsing results into a binary mask. Each of the 19 face region
 ## 🔗 Typical Workflow
 
 ```
-FaceParsingModelLoader ──(FACE_PARSING_MODEL)──┐
+FaceParsingModelLoaderNew ──(FACE_PARSING_MODEL)──┐
                                                 ▼
 FaceParsingProcessorLoader ──(FACE_PARSING_PROCESSOR)──► FaceParse ──(FACE_PARSING_RESULT)──► FaceParsingResultsParser ──(MASK)──►
                                                             ▲
