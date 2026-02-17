@@ -1,2 +1,4 @@
-transformers
+opencv-contrib-python-headless
+torchvision
 ultralytics
+matplotlib

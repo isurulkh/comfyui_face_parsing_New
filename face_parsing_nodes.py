@@ -12,7 +12,7 @@ models_path = folder_paths.models_dir
 face_parsing_path = os.path.join(models_path, "face_parsing")
 
 
-class  :
+class FaceParsingModelLoaderNew:
     """Loads the face parsing semantic segmentation model (jonathandinu/face-parsing)."""
 
     def __init__(self):
